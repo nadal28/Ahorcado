@@ -5,11 +5,17 @@
 char palabra[30];
 int tamano;
 int vidas = 5;
+char letra;
+
 void desplegarTablero(){
-	tamano = strlen(palabra);
-	while(vidas > 0){
-		
-	}
+    tamano = strlen(palabra);
+    while(vidas > 0){
+	printf("Introduce una letra: ");
+	gets(letra);
+	
+	for(int i=0; i < tamano; i++)
+
+    }
 
 }
 
@@ -21,7 +27,7 @@ int main(){
     gets(palabra);
 
     desplegarTablero();
-		
-	 
+
+
 
 }
