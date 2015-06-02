@@ -3,6 +3,15 @@
 #include <string.h>
 
 char palabra[30];
+int tamano;
+int vidas = 5;
+void desplegarTablero(){
+	tamano = strlen(palabra);
+	while(vidas > 0){
+		
+	}
+
+}
 
 int main(){
     system("clear");
@@ -11,7 +20,8 @@ int main(){
     printf("Escribe una palabra: ");
     gets(palabra);
 
-    printf("%s",palabra);
-
+    desplegarTablero();
+		
+	 
 
 }
